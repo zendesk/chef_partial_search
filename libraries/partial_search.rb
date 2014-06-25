@@ -78,7 +78,7 @@ class Chef
     end
 
     def list_indexes
-      response = @rest.get_rest("search")
+      @rest.get_rest("search")
     end
 
     private
